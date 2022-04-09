@@ -9,7 +9,7 @@ function App() {
 const [counter,setCounter]=useState(10)
 
 const handleChange=(value)=>{
-if(counter<=0){
+if(value==-1&&counter<=0){
   return
 }
   setCounter(counter+value)
