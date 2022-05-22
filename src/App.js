@@ -1,15 +1,15 @@
-// import logo from './logo.svg';
+
 import { useState } from 'react';
 import './App.css';
 
-import { Category } from './components/Category';
+
 function App() {
   
 
 const [counter,setCounter]=useState(10)
 
 const handleChange=(value)=>{
-if(value==-1&&counter<=0){
+if(value===-1&&counter<=0){
   return
 }
   setCounter(counter+value)
